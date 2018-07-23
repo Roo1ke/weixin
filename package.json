@@ -74,5 +74,13 @@
     "not ie <= 8"
   ],
   "main": ".eslintrc.js",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roo1ke/weixin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Roo1ke/weixin/issues"
+  },
+  "homepage": "https://github.com/Roo1ke/weixin#readme"
 }
