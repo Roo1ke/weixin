@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="guide">
 <wv-group title="请选择报价类型">
   <el-checkbox-group v-model="checkboxGroup" size="small" style="text-align:center; margin-top:22px;margin-bottom:22px">
       <el-checkbox label="空调" border></el-checkbox>
@@ -17,6 +17,20 @@
     </wv-group>
 </div>
 </template>
+<style scoped>
+.weui-cell{
+  padding:10px 15px;
+  position:relative;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center
+  }
+</style>
 
 <script>
   export default {
@@ -30,7 +44,7 @@
     },
     methods:{
       doQuotation(){
-
+          this.$router.push('/home')
       }
     }
   }
